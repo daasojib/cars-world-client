@@ -8,11 +8,11 @@ const Footer = () => {
                                         <p><span className="text-red-600 text-2xl font-bold">Car World</span><br />Providing toys since 2006</p>
                               </div>
                               <div>
-                                        <span className="footer-title">Company</span>
-                                        <a className="link link-hover">About us</a>
-                                        <a className="link link-hover">Connect Us</a>
-                                        <a className="link link-hover">Jobs</a>
-                                        <a className="link link-hover">Press kit</a>
+                                        <span className="footer-title">Contact Us</span>
+                                        <a className="link link-hover">Helpline: 01322810867 , 01322810873</a>
+                                        <a className="link link-hover">world.12cars@gmail.com</a>
+                                        <a className="link link-hover">Level-4, 34, Mirpur, Dhaka</a>
+                                        <a className="link link-hover">(Available : Sat - Thu, 10:00 AM to 7:00 PM)</a>
                               </div>
                               <div>
                                         <span className="footer-title">Contact Us</span>
