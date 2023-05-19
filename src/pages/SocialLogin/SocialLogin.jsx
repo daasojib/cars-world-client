@@ -1,6 +1,6 @@
 import { FaGoogle } from "react-icons/fa";
 import {GoogleAuthProvider, getAuth, signInWithPopup} from 'firebase/auth'
-import app from "../../firebase/firebase.init";
+import app from "../../firebase/firebase.config";
 import { useState } from "react";
 
 

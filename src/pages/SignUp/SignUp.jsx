@@ -1,10 +1,34 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const SignUp = () => {
+          const {createUser} = useContext(AuthContext);
+
+          const handleSignUp = event =>{
+                    event.preventDefault();
+
+                    const form = event.target;
+                    const name = form.name.value;
+                    const email = form.email.value;
+                    const password = form.password.value;
+                    const photo = form.photo.value;
+                    console.log(name,email,password,photo)
+
+                    createUser(email,password)
+                    .then(result =>{
+                              const loggedUser = result.user;
+                              console.log(loggedUser)
+                    })
+                    .catch(error=>{
+                              console.log(error.message)
+                    })
+          }
+
           return (
                     <div>
                               <h1 className="text-center font-bold text-5xl">Please Register !!</h1>
-                              <form>
+                              <form onSubmit={handleSignUp}>
                                         <div className="form-control">
                                                   <label className="label">
                                                             <span className="label-text">Name</span>

@@ -1,15 +1,36 @@
 import { Link } from "react-router-dom";
 import SocialLogin from "../SocialLogin/SocialLogin";
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
 
 
 
 const Login = () => {
 
+          const {signIn} = useContext(AuthContext);
+
+          const handleLogin = event =>{
+                    event.preventDefault()
+                    const form = event.target;
+                    const email = form.email.value;
+                    const password = form.password.value;
+                    console.log(email,password)
+                    signIn(email,password)
+                    .then(result=>{
+                              const loggedUser = result.user;
+                              console.log(loggedUser)
+                              form.reset();
+                    })
+                    .catch(error=>{
+                              console.log(error)
+                    })
+          }
+
 
           return (
                     <div>
                               <h1 className="text-center font-bold text-5xl">Please Login!!</h1>
-                              <form>
+                              <form onSubmit={handleLogin}>
                                         <div className="form-control">
                                                   <label className="label">
                                                             <span className="label-text">Email</span>
