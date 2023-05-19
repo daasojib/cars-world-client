@@ -34,8 +34,8 @@ const NavBar = () => {
           </ul>
         </div>
         <Link to='/' className="btn btn-ghost normal-case text-xl">
-          <img className="w-20" src={logo} alt="" />
-          <span className="font-bold text-red-600 text-3xl">Car World</span>
+          <img className="w-12" src={logo} alt="" />
+          <span className="font-bold text-red-600 text-2xl">Car World</span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
