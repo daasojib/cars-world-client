@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import SocialLogin from "../SocialLogin/SocialLogin";
 
+
+
 const Login = () => {
+
+
           return (
                     <div>
                               <h1 className="text-center font-bold text-5xl">Please Login!!</h1>
