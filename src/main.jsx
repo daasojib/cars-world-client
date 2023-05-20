@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import router from './Routes/Routes.jsx';
 import AuthProvider from './providers/AuthProvider';
+import 'react-tabs/style/react-tabs.css';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div className='max-w-7xl mx-auto'>
