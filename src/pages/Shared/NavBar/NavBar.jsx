@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import logo from '../../../assets/logo.png'
 import { useContext } from "react";
 import { AuthContext } from "../../../providers/AuthProvider";
+import { FaUserCircle } from 'react-icons/fa';
+
 
 const NavBar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -44,7 +46,9 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        
+      {user && <FaUserCircle
+            style={{fontSize: '2rem'}}
+            ></FaUserCircle>}
         {user ?
           <span>
             <img src={user.photoURL} alt="" />
