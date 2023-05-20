@@ -1,0 +1,148 @@
+[{
+                    "sellerName": "John Doe",
+                    "toyName": "Robot Car Kit",
+                    "subCategory": "Robot Car",
+                    "price": 29.99,
+                    "availableQuantity": 50
+          },
+          {
+                    "sellerName": "XYZ Toys",
+                    "toyName": "Plush Unicorn",
+                    "subCategory": "Robot Car",
+                    "price": 19.99,
+                    "availableQuantity": 25
+          },
+          {
+                    "sellerName": "Toy World",
+                    "toyName": "Remote Control",
+                    "subCategory": "Vehicles",
+                    "price": 39.99,
+                    "availableQuantity": 10
+          },
+          {
+                    "sellerName": "Toy Mania",
+                    "toyName": "Remote Control",
+                    "subCategory": "Vehicles",
+                    "price": 39.99,
+                    "availableQuantity": 10
+          },
+          {
+                    "sellerName": "Toy Field",
+                    "toyName": "Remote Control",
+                    "subCategory": "Vehicles",
+                    "price": 39.99,
+                    "availableQuantity": 10
+          },
+          {
+                    "sellerName": "Toy Emporium",
+                    "toyName": "Diecast Sports Car Set",
+                    "subCategory": "Collectible Cars",
+                    "price": 24.99,
+                    "availableQuantity": 12
+          },
+          {
+                    "sellerName": "Toylandia",
+                    "toyName": "Remote Control Monster Truck",
+                    "subCategory": "Toy Cars",
+                    "price": 34.99,
+                    "availableQuantity": 20
+          },
+          {
+                    "sellerName": "Fun Toys",
+                    "toyName": "Art Set",
+                    "subCategory": "Robot Arts",
+                    "price": 14.99,
+                    "availableQuantity": 15
+          },
+          {
+                    "sellerName": "Toy World",
+                    "toyName": "Remote Control Car",
+                    "subCategory": "Vehicles",
+                    "price": 39.99,
+                    "availableQuantity": 10
+          },
+          {
+                    "sellerName": "SuperToy",
+                    "toyName": "Transforming Robot Car",
+                    "subCategory": "Transformers",
+                    "price": 49.99,
+                    "availableQuantity": 18
+          },
+          {
+                    "sellerName": "Toy Emporium",
+                    "toyName": "Diecast Sports Car Set",
+                    "subCategory": "Collectible Cars",
+                    "price": 24.99,
+                    "availableQuantity": 12
+          },
+          {
+                    "sellerName": "Toylandia",
+                    "toyName": "Remote Control Monster Truck",
+                    "subCategory": "Toy Cars",
+                    "price": 34.99,
+                    "availableQuantity": 20
+          },
+          {
+                    "sellerName": "ToyMela",
+                    "toyName": "Police Car Playset",
+                    "subCategory": "Role Play",
+                    "price": 29.99,
+                    "availableQuantity": 15
+          },
+          {
+                    "sellerName": "Speedy Toys",
+                    "toyName": "RC Off-Road Buggy",
+                    "subCategory": "Remote Control Cars",
+                    "price": 79.99,
+                    "availableQuantity": 7
+          },
+          {
+                    "sellerName": "Spy Toys",
+                    "toyName": "Race Car Track Set",
+                    "subCategory": "Playsets",
+                    "price": 59.99,
+                    "availableQuantity": 5
+          },
+          {
+                    "sellerName": "Toy Emporium",
+                    "toyName": "Diecast Sports Car Set",
+                    "subCategory": "Collectible Cars",
+                    "price": 24.99,
+                    "availableQuantity": 12
+          },
+          {
+                    "sellerName": "Toy Empr",
+                    "toyName": "Outdoor Swing",
+                    "subCategory": "Outdoor Toys",
+                    "price": 49.99,
+                    "availableQuantity": 8
+          },
+          {
+                    "sellerName": "Fun Toys",
+                    "toyName": "Art Set",
+                    "subCategory": "Arts and Crafts",
+                    "price": 14.99,
+                    "availableQuantity": 15
+          },
+          {
+                    "sellerName": "Toy rium",
+                    "toyName": "Diecast Sports Car Set",
+                    "subCategory": "Collectible Cars",
+                    "price": 24.99,
+                    "availableQuantity": 12
+          },
+          {
+                    "sellerName": "Mela rium",
+                    "toyName": "Race Car Track Set",
+                    "subCategory": "Playsets",
+                    "price": 59.99,
+                    "availableQuantity": 5
+          },
+          {
+                    "sellerName": "Speedy Toys",
+                    "toyName": "RC Off-Road Buggy",
+                    "subCategory": "Remote Control Cars",
+                    "price": 79.99,
+                    "availableQuantity": 7
+          }
+]
