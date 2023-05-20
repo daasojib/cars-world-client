@@ -13,11 +13,9 @@ const AllToys = () => {
           return (
 
                     <div>
-
                               <h2 className="font-bold text-2xl">All Toys</h2>
 
                               <div className="overflow-x-auto">
-                                        {}
                                         <table className="table w-full">
                                                   <thead>
                                                             <tr>
@@ -26,18 +24,23 @@ const AllToys = () => {
                                                                       <th>Sub Category</th>
                                                                       <th>Price</th>
                                                                       <th>Quantity</th>
-                                                                      <th></th>
+                                                                      <th>Action</th>
                                                             </tr>
                                                   </thead>
                                                   <tbody>
-                                                            <tr>
-                                                                      <th>{ }</th>
-                                                                      <td>Cy Ganderton</td>
-                                                                      <td>Quality Control Specialist</td>
-                                                                      <td>Blue</td>
-                                                                      <td></td>
+                                                            {
+                                                                      toys.map(toy=><>
+                                                                         <tr>
+                                                                      <th>{toy.sellerName}</th>
+                                                                      <td>{toy.toyName}</td>
+                                                                      <td>{toy.subCategory}</td>
+                                                                      <td>{toy.price}</td>
+                                                                      <td>{toy.availableQuantity}</td>
                                                                       <td><button className="btn btn-outline btn-primary">View Details</button></td>
                                                             </tr>
+                                                                      </>)
+                                                            }
+                                                         
                                                   </tbody>
                                         </table>
                               </div>
