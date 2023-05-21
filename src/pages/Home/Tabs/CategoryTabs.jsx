@@ -5,6 +5,7 @@ import img3 from '../../../assets/category/atish-sewmangel-NYbTdrBh740-unsplash.
 import img4 from '../../../assets/category/banner3.jpg'
 import img5 from '../../../assets/category/banner1.jpg'
 import img6 from '../../../assets/category/sandy-millar-nuS2GDpCDoI-unsplash.jpg'
+import { Link } from 'react-router-dom';
 
 
 const CategoryTabs = () => {
@@ -28,7 +29,7 @@ const CategoryTabs = () => {
                                                                       <h2>Price: $29.99</h2>
                                                                       <p>Rating: 4.5</p>
                                                                       <div className="card-actions justify-center">
-                                                                                <button className="btn btn-primary">View Details</button>
+                                                                                <Link to='/login'><button className="btn btn-primary">View Details</button></Link>
                                                                       </div>
                                                             </div>
                                                   </div>
@@ -39,7 +40,7 @@ const CategoryTabs = () => {
                                                                       <p>Price: $30.00</p>
                                                                       <p>Rating: 3.0</p>
                                                                       <div className="card-actions justify-center">
-                                                                                <button className="btn btn-primary">View Details</button>
+                                                                                <Link to='/login'><button className="btn btn-primary">View Details</button></Link>
                                                                       </div>
                                                             </div>
                                                   </div>
@@ -55,7 +56,7 @@ const CategoryTabs = () => {
                                                                       <h2>Price: $42.99</h2>
                                                                       <p>Rating: 3.7</p>
                                                                       <div className="card-actions justify-center">
-                                                                                <button className="btn btn-primary">View Details</button>
+                                                                                <Link to='/login'><button className="btn btn-primary">View Details</button></Link>
                                                                       </div>
                                                             </div>
                                                   </div>
@@ -66,7 +67,7 @@ const CategoryTabs = () => {
                                                                       <h2>Price: $85.00</h2>
                                                                       <p>Rating: 5.5</p>
                                                                       <div className="card-actions justify-center">
-                                                                                <button className="btn btn-primary">View Details</button>
+                                                                                <Link to='/login'><button className="btn btn-primary">View Details</button></Link>
                                                                       </div>
                                                             </div>
                                                   </div>
@@ -82,7 +83,7 @@ const CategoryTabs = () => {
                                                                       <h2>Price: $20.99</h2>
                                                                       <p>Rating: 4.0</p>
                                                                       <div className="card-actions justify-center">
-                                                                                <button className="btn btn-primary">View Details</button>
+                                                                                <Link to='/login'><button className="btn btn-primary">View Details</button></Link>
                                                                       </div>
                                                             </div>
                                                   </div>
@@ -93,7 +94,7 @@ const CategoryTabs = () => {
                                                                       <p>Price: $70.00</p>
                                                                       <p>Rating: 5.0</p>
                                                                       <div className="card-actions justify-center">
-                                                                                <button className="btn btn-primary">View Details</button>
+                                                                                <Link to='/login'><button className="btn btn-primary">View Details</button></Link>
                                                                       </div>
                                                             </div>
                                                   </div>
