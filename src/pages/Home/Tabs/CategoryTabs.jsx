@@ -6,7 +6,9 @@ import img4 from '../../../assets/category/banner3.jpg'
 import img5 from '../../../assets/category/banner1.jpg'
 import img6 from '../../../assets/category/sandy-millar-nuS2GDpCDoI-unsplash.jpg'
 
+
 const CategoryTabs = () => {
+
           return (
                     <div>
                               <h2 className='text-center my-10 text-3xl font-bold'>Cars Category </h2>
